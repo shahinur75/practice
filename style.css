@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*herder*/
+    .header-part{
+    background-color:#023336;
+
+  }
+  
+  nav {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    height: 100px;
+  }
+  
+  
+  nav .logo-part h2{
+    font-size: 35px;
+    color: #EAF8E7;
+    font-family: "abel", sans-serif;
+    font-weight: 700;
+  }
+    
+  nav .menu-part ul {
+    list-style: none;
+  }
+
+  
+  nav ul{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  nav ul li{
+    padding: 10px 
+  }
+  
+  nav ul li a{
+    font-family: "abel", sans-serif;
+    color: #EAF8E7;
+    font-size: 22px;
+    font-weight: 600px;
+    text-decoration: none;
+  } 
+  #booking{
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+
+  }
+
+
+#hero{
+    background-color: #023336;
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #EAF8E7;
+    font-size: 70px;
+    font-family: "Abel", serif;
+    font-weight: 600;
+    line-height: 120px;
+    font-style: normal;
+    padding: 20px 20px 20px 20px;
+      
+    }
